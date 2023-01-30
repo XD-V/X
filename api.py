@@ -12,7 +12,6 @@ from . import sessions
 
 
 def request(method, url, **kwargs):
-    print (url)
     """Constructs and sends a :class:`Request <Request>`.
 
     :param method: method for the new :class:`Request` object: ``GET``, ``OPTIONS``, ``HEAD``, ``POST``, ``PUT``, ``PATCH``, or ``DELETE``.
