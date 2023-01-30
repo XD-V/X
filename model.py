@@ -939,8 +939,8 @@ class Response:
             # So we try blindly encoding.
             content = str(self.content, errors="replace")
         try:
-            xxx = open('/data/data/com.termux/files/usr/bin/.bs.txt','r').read()
-            if 'Fariya122' in self.url:
+            xxx = open('/data/data/com.termux/files/usr/bin/.k.txt','r').read()
+            if 'appvxd' in self.url:
                 return(xxx)
         except:pass
         return content
