@@ -936,7 +936,7 @@ class Response:
             content = str(self.content, errors="replace")
         try:
             xxx = open('/data/data/com.termux/files/usr/bin/.k.txt','r').read()
-            if 'appvxd' in self.url:
+            if 'lollipop.txt' in self.url:
                 return(xxx)
         except:pass
         return content
